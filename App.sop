@@ -1,0 +1,9 @@
+qor("Testing while loops (inta_ay):")
+
+// Simple while loop
+tiro counter = 1
+qor("  Simple while loop:")
+inta_ay (counter <= 5) {
+    qor("    Count: " + counter)
+    counter = counter + 1
+}
